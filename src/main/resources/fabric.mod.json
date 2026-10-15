@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "enchanteddragoneggmod",
+  "version": "1.0.0",
+  "name": "Enchanted Dragon Egg Mod",
+  "description": "A Minecraft mod that adds a unique Dragon Egg item with phase abilities.",
+  "authors": ["romiken381"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.romiken381.enchanteddragoneggmod.EnchantedDragonEggMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "java": ">=17"
+  }
+}
